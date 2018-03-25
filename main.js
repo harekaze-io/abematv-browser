@@ -3,6 +3,8 @@ const {app, Menu} = require('electron');
 const electron = require("electron");
 const BrowserWindow = electron.BrowserWindow;
 const rootURL = 'https://abema.tv';
+const openAboutWindow = require('about-window').default;
+const join = require('path').join;
 let mainWindow;
 
 const template = [
@@ -31,21 +33,11 @@ const template = [
 				click: function() { createWindow(rootURL); }
 			},
 			{
-				label: 'ウィンドウ最前面ON',
-				click: function(){ mainWindow.setAlwaysOnTop(true);}
-			},
-			{
-				label: 'ウィンドウ最前面OFF',
-				click: function(){ mainWindow.setAlwaysOnTop(false);}
-			},
-			{
-				label: 'マウスクリックOFF',
-				click: function(){ mainWindow.setIgnoreMouseEvents(true);}
-			},
-			{
-				label : 'マウスクリックON',
-				accelerator: 'Ctrl+Z',
-				click: function(){ mainWindow.setIgnoreMouseEvents(false);}
+				label: 'ウィンドウを常に最前面にする',type: 'checkbox', checked:false, click: function() {
+					let alwaysOnTop = mainWindow.isAlwaysOnTop();
+					alwaysOnTop = !alwaysOnTop;
+					mainWindow.setAlwaysOnTop(alwaysOnTop);
+				}
 			},
 			{
 				label: '終了',
@@ -203,13 +195,27 @@ const template = [
     		click: function() { createWindow(rootURL + '/now-on-air/mahjong'); }
     	}
 		]
-	}
+	},
+	{
+		label: 'ヘルプ',
+		submenu: [
+			{
+				label: 'このアプリについて',
+				click: () =>
+				openAboutWindow({
+					icon_path: join(__dirname, 'favicon.ico'),
+					copyright: 'Copyright (c) 2018 Reichan',
+					description: 'このアプリはAbema-TV用のブラウザーです。自己責任でお使いください。',
+					package_json_dir: __dirname,
+				}),
+			}
+    ]
+  }
 ];
 
 function createWindow (url) {
 	mainWindow = new BrowserWindow({titleBarStyle: 'hidden' ,width: 1080, height: 600});
 	mainWindow.loadURL(url);
-	//mainWindow.setAlwaysOnTop(true);//常に最前面にしたいときコメントイン
 
   	mainWindow.on('closed', function () {
     	mainWindow = null
