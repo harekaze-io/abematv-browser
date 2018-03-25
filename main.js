@@ -76,124 +76,124 @@ const template = [
 			},
 			{
 				label: '韓流・華流',
-        accelerator: '6',
-        click: function() { createWindow(rootURL + '/now-on-air/asia-drama'); }
-      },
-      {
-        label: 'REALITY SHOW',
-        accelerator: '7',
-        click: function() { createWindow(rootURL + '/now-on-air/reality-show'); }
-      },
-      {
-        label: 'MTV HITS',
-        accelerator: '8',
-        click: function() { createWindow(rootURL + '/now-on-air/mtv-hits'); }
-      },
-      {
-        label: 'SPACE SHOWER MUSIC CAST',
-        accelerator: '9',
-        click: function() { createWindow(rootURL + '/now-on-air/space-shower'); }
-      },
-      {
-        label: 'Documentary',
-        accelerator: '1+0',
-        click: function() { createWindow(rootURL + '/now-on-air/documentary'); }
-      },
-      {
-        label: 'バラエティ',
-        accelerator: '1++1',
-        click: function() { createWindow(rootURL + '/now-on-air/variety'); }
-      },
-      {
-       	label: 'ペット',
-        accelerator: '1+2',
-        click: function() { createWindow(rootURL + '/now-on-air/pet'); }
-      },
-      {
-        label: 'CLUB',
-        accelerator: '1+3',
-        click: function() { createWindow(rootURL + '/now-on-air/club-channel'); }
-      },
-      {
-        label: 'SPORTS',
-        accelerator: '1+4',
-        click: function() { createWindow(rootURL + '/now-on-air/world-sports'); }
-    	},
-    	{
-        label: '格闘',
-        accelerator: '1+5',
-        click: function() { createWindow(rootURL + '/now-on-air/fighting-sports'); }
-      },
-      {
-        label: '格闘2',
-        accelerator: '1+6',
-        click: function() { createWindow(rootURL + '/now-on-air/fighting-sports2'); }
-      },
+        			accelerator: '6',
+        			click: function() { createWindow(rootURL + '/now-on-air/asia-drama'); }
+			},
 			{
-        label: 'VICE',
-        accelerator: '1+7',
-        click: function() { createWindow(rootURL + '/now-on-air/vice'); }
-      },
-    	{
-      	label: 'CM',
-        accelerator: '1+8',
-        click: function() { createWindow(rootURL + '/now-on-air/commercial'); }
-    	},
-      {
-      	label: 'アニメ24',
-        accelerator: '1+9',
+        			label: 'REALITY SHOW',
+        			accelerator: '7',
+        			click: function() { createWindow(rootURL + '/now-on-air/reality-show'); }
+      			},
+      			{
+        			label: 'MTV HITS',
+        			accelerator: '8',
+        			click: function() { createWindow(rootURL + '/now-on-air/mtv-hits'); }
+      			},
+      			{
+        			label: 'SPACE SHOWER MUSIC CAST',
+        			accelerator: '9',
+        			click: function() { createWindow(rootURL + '/now-on-air/space-shower'); }
+      			},
+      			{
+        			label: 'Documentary',
+        			accelerator: '1+0',
+        			click: function() { createWindow(rootURL + '/now-on-air/documentary'); }
+      			},
+      			{
+        			label: 'バラエティ',
+        			accelerator: '1++1',
+        			click: function() { createWindow(rootURL + '/now-on-air/variety'); }
+      			},
+      			{
+       				label: 'ペット',
+        			accelerator: '1+2',
+        			click: function() { createWindow(rootURL + '/now-on-air/pet'); }
+      			},
+			{
+        			label: 'CLUB',
+        			accelerator: '1+3',
+        			click: function() { createWindow(rootURL + '/now-on-air/club-channel'); }
+      			},
+      			{
+        			label: 'SPORTS',
+        			accelerator: '1+4',
+        			click: function() { createWindow(rootURL + '/now-on-air/world-sports'); }
+    			},
+    			{
+        			label: '格闘',
+        			accelerator: '1+5',
+        			click: function() { createWindow(rootURL + '/now-on-air/fighting-sports'); }
+      			},
+      			{
+        			label: '格闘2',
+        			accelerator: '1+6',
+        			click: function() { createWindow(rootURL + '/now-on-air/fighting-sports2'); }
+      			},
+			{
+        			label: 'VICE',
+        			accelerator: '1+7',
+        			click: function() { createWindow(rootURL + '/now-on-air/vice'); }
+      			},
+    			{
+      				label: 'CM',
+        			accelerator: '1+8',
+        			click: function() { createWindow(rootURL + '/now-on-air/commercial'); }
+    			},
+      			{
+      				label: 'アニメ24',
+        			accelerator: '1+9',
         			click: function() { createWindow(rootURL + '/now-on-air/anime24'); }
-      },
-      {
-        label: '深夜アニメ',
-        accelerator: '2+0',
-        click: function() { createWindow(rootURL + '/now-on-air/midnight-anime'); }
-      },
-      {
-        label: 'なつかしアニメ',
-        accelerator: '2+1',
-        click: function() { createWindow(rootURL + '/now-on-air/oldtime-anime'); }
-      },
-    	{
-      	label: '家族アニメ',
-      	accelerator: '2+2',
-        click: function() { createWindow(rootURL + '/now-on-air/family-anime'); }
-      },
-      {
-        label: '新作TVアニメ',
-        accelerator: '2+3',
-        click: function() { createWindow(rootURL + '/now-on-air/new-anime'); }
-      },
-      {
-      	label: 'HIPHOP',
-      	accelerator: '2+4',
-      	click: function() { createWindow(rootURL + '/now-on-air/hiphop'); }
-      },
-      {
-        label: 'YOKONORI SPORTS',
-        accelerator: '2+5',
-        click: function() { createWindow(rootURL + '/now-on-air/yokonori-sports'); }
-      },
-      {
-        label: 'ゴルフ',
-      	accelerator: '2+6',
-        click: function() { createWindow(rootURL + '/now-on-air/golf'); }
-      },
-      {
-      	label: '釣り',
-      	accelerator: '2+7',
-      	click: function() { createWindow(rootURL + '/now-on-air/fishing'); }
-      },
-    	{
-      	label: '将棋',
-        accelerator: '2+8',
-        click: function() { createWindow(rootURL + '/now-on-air/shogi'); }
-      },
-    	{
-      	label: '麻雀',
-      	accelerator: '2+9',
-    		click: function() { createWindow(rootURL + '/now-on-air/mahjong'); }
-    	}
+      			},
+      			{
+        			label: '深夜アニメ',
+        			accelerator: '2+0',
+        			click: function() { createWindow(rootURL + '/now-on-air/midnight-anime'); }
+      			},
+      			{
+        			label: 'なつかしアニメ',
+        			accelerator: '2+1',
+        			click: function() { createWindow(rootURL + '/now-on-air/oldtime-anime'); }
+      			},
+    			{
+      				label: '家族アニメ',
+      				accelerator: '2+2',
+        			click: function() { createWindow(rootURL + '/now-on-air/family-anime'); }
+      			},
+      			{
+        			label: '新作TVアニメ',
+        			accelerator: '2+3',
+        			click: function() { createWindow(rootURL + '/now-on-air/new-anime'); }
+      			},
+      			{
+      				label: 'HIPHOP',
+      				accelerator: '2+4',
+      				click: function() { createWindow(rootURL + '/now-on-air/hiphop'); }
+      			},
+      			{
+        			label: 'YOKONORI SPORTS',
+        			accelerator: '2+5',
+       				click: function() { createWindow(rootURL + '/now-on-air/yokonori-sports'); }
+      			},
+      			{
+        			label: 'ゴルフ',
+      				accelerator: '2+6',
+        			click: function() { createWindow(rootURL + '/now-on-air/golf'); }
+      			},
+      			{
+      				label: '釣り',
+      				accelerator: '2+7',
+      				click: function() { createWindow(rootURL + '/now-on-air/fishing'); }
+      			},
+    			{
+      				label: '将棋',
+        			accelerator: '2+8',
+        			click: function() { createWindow(rootURL + '/now-on-air/shogi'); }
+     			},
+    			{
+      				label: '麻雀',
+      				accelerator: '2+9',
+    				click: function() { createWindow(rootURL + '/now-on-air/mahjong'); }
+    			}
 		]
 	},
 	{
@@ -203,14 +203,14 @@ const template = [
 				label: 'このアプリについて',
 				click: () =>
 				openAboutWindow({
-					icon_path: join(__dirname, 'favicon.ico'),
+					icon_path: join(__dirname, 'icon.png'),
 					copyright: 'Copyright (c) 2018 Reichan',
 					description: 'このアプリはAbema-TV用のブラウザーです。自己責任でお使いください。',
 					package_json_dir: __dirname,
 				}),
 			}
-    ]
-  }
+    		]
+ 	}
 ];
 
 function createWindow (url) {

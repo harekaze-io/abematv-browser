@@ -1,6 +1,6 @@
 {
   "name": "Abematv-viewer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "main.js",
   "dependencies": {
     "about-window": "^1.10.0"
