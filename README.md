@@ -18,5 +18,6 @@ Windows (MACは持ってないので知りません。ちなみにWindows10の�
 
 ## ダウンロード
 [こちら](https://github.com/harekaze-io/abematv-browser/releases)から最新バージョンをどうぞ
+ダウンロード後、「abematv-browser-v1.0.5.exe」を実行で起動可能。
 
 ### 要請があれば公開停止します。
