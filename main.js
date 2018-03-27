@@ -4,7 +4,7 @@ const electron = require("electron");
 const BrowserWindow = electron.BrowserWindow;
 const rootURL = 'https://abema.tv';
 const openAboutWindow = require('about-window').default;
-//const join = require('path').join;
+const join = require('path').join;
 let mainWindow;
 
 const template = [
